@@ -180,28 +180,21 @@ xcov_penalty=0.0
 
 \`\`\`
 project_root/
-├── dialogs/
-│   ├── 1/
-│   │   ├── 1.tsv
-│   │   ├── 2.tsv
-│   │   └── ...
-│   ├── 2/
-│   │   ├── 1.tsv
-│   │   ├── 2.tsv
-│   │   └── ...
-│   ├── 3/
-│   │   └── ...
-│   └── 5/
-│       └── ...
+├── __init__
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── statistics.ipynb
+├── utils.py
 └── src/
-    └── meta/
-        ├── trainfiles.csv
-        ├── valfiles.csv
-        ├── testfiles.csv
     ├── create_ubuntu_dataset.py
     ├── download_punkt.py
     ├── generate.sh
-    └── ...
+    └── meta/
+        ├── trainfiles.csv
+        ├── valfiles.csv
+        └── testfiles.csv
 \`\`\`
 
 ---
